@@ -42,13 +42,19 @@
 				"inputs": [
 					{
 						"referenceName": "InputCsv",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"filename": "fruits.csv"
+						}
 					}
 				],
 				"outputs": [
 					{
 						"referenceName": "OutputTable",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"tableName": "fruits"
+						}
 					}
 				]
 			}
